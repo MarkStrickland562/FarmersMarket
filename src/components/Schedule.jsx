@@ -4,12 +4,6 @@ import PropTypes from 'prop-types';
 function Schedule(props){
   return (
     <div>
-      <style global jsx>{`
-        div {
-          background-color: beige;
-        }
-      `}
-      </style>
       <tr>
         <td style={{width: 80}}>{props.day}</td>
         <td style={{width: 180}}>{props.location}</td>
